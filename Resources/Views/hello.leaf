@@ -1,0 +1,10 @@
+#// 单行注释
+#/*
+    多行注释
+*/
+<h1>Hello, #(name)!</h1>
+The time is #date(now, "yyyy-MM-dd hh:mm:ss")
+<p>#(title)</p>
+#for(number in numbers){
+    <p>#(number)</p>
+}
